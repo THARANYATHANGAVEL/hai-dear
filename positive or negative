@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+int a;
+printf("enter the no");
+scanf("%d",&a);
+if(n>0)
+printf("the no is positive");
+else
+printf("no is negative");
+}
+}
