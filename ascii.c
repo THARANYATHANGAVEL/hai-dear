@@ -2,8 +2,8 @@
 #include<conio.h>
 void main()
 {
-    char c;
+    char a;
     printf("Enter a character:");
-    scanf("%c", &c);
-    printf("ASCII value of %c = %d", c, c);
+    scanf("%c", &a);
+    printf("ASCII value of %c = %d", a, a);
 }
