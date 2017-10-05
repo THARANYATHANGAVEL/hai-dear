@@ -2,8 +2,8 @@
 int main()
 {
 char a;
-printf("%c",a);
-     if(a==Q||a==q)
+printf("%c",&a);
+     if(a=='Q'||a=='q')
           exit;
      return 0;
 }
