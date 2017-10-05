@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-int n,i,sum=0;
+int a,i,sum=0;
 printf("enter n value");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
+scanf("%d",&a);
+for(i=1;i<=a;i++)
 {
 sum=sum+i;
 }
