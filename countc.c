@@ -3,7 +3,7 @@
 void main()
 {
     char str[100];
-    intcharacter,numbers, others, i;
+    int character, i;
     character =0;
     printf("Enter any string : ");
     gets(str);
