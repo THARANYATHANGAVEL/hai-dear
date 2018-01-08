@@ -5,7 +5,7 @@ void main()
 int n,r=0,remain,p;
 printf("enter n value");
 scanf("%d",&n);
-p=n;
+  p=n;
 while(n!=0)
 {
 remain=n%10;
@@ -14,11 +14,11 @@ n=n/10;
 }
 if(p==r)
 {
-printf("palindrome");
+printf("yes");
 }
 else
 {
-printf("not palindrome");
+printf("no");
 }
 getch();
 }
