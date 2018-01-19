@@ -11,7 +11,7 @@ void  main()
 
     for (i = 1; i <= n; ++i)
     {
-        printf("%d, ", x);
+        printf("%d", x);
          t= x+ y;
         x = y;
         y = t;
