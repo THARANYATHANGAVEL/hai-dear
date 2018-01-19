@@ -2,7 +2,7 @@
 #include<conio.h>
 void  main()
 {
-    int i, n, x= 0, y= 1, t;
+    int i, n, a= 0, b= 1, t;
 
     printf("Enter the number of terms: ");
     scanf("%d", &n);
@@ -11,10 +11,10 @@ void  main()
 
     for (i = 1; i <= n; ++i)
     {
-        printf("%d", x);
-         t= x+ y;
-        x = y;
-        y = t;
+        printf("%d", a);
+         t= a+ b;
+        a = b;
+        yb= t;
     }
     getch();
 }
