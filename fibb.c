@@ -14,7 +14,7 @@ void  main()
         printf("%d", a);
          t= a+ b;
         a = b;
-        yb= t;
+        b= t;
     }
     getch();
 }
