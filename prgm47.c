@@ -22,7 +22,7 @@ void main()
             }
         }
     }
-    printf("%d/t%d",a[0],a[n-1]);
+    printf("%d\t%d",a[0],a[n-1]);
     getch();
 
 }
