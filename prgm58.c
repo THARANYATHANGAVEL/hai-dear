@@ -3,7 +3,7 @@
 void  main()
 {
     int x,y,i;
-    scanf("%d\t%d",&y,&y);
+    scanf("%d\t%d",&x,&y);
     x=x^y;
     y=x^y;
     x=x^y;
