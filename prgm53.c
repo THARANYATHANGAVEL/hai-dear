@@ -9,7 +9,7 @@ while(n!=0)
 {
 rem=n%10;
 n=n/10;
-sum=sum+rem
+sum=sum+rem;
 }
 printf("%d",sum);
 getch();
