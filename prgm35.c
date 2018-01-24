@@ -7,7 +7,7 @@ scanf("%s",&a);
 l=strlen(a);
 for(i=0;i<=n;i++)
 {
-if(a[i]>=0&&a[i]<=9)
+if(a[i]>=48&&a[i]<=57)
 {
 sum++;
 }
