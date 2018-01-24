@@ -10,7 +10,7 @@ printf("how character u want print\n");
 scanf("%d",&k);
 for(i=0;i<k;i++)
 {
-printf("%s",a[i]);
+printf("%c",a[i]);
 }
 getch();
 }
