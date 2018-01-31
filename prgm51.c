@@ -2,14 +2,21 @@
 #include<conio.h>
 void main()
 {
-int n,cnt=0;
-printf("enter the value");
+int n,cnt=0,rem,rev=0,a;
+printf("enter the value:\n");
 scanf("%d",&n);
 while(n!=0)
 {
-n=n/10;
-cnt++;
+ rem=n%10;
+ rev=rev*10+rem;
+ n=n/10;
 }
-printf("count=%d",cnt);
+while(rev!=0)
+{
+   a=rev%10;
+   printf("%d ",a);
+   rev=rev/10;
+}
 getch();
 }
+
