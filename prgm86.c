@@ -18,10 +18,10 @@ void main()
     }
     if(c==0)
     {
-        printf("string is isogram");
+        printf("Yes isogram");
     }
     else
     {
-        printf("string is not isogram");
+        printf("No not isogram");
     }
 }
