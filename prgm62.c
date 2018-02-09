@@ -3,7 +3,7 @@
 void main()
 {
 char str[50];
-int n,c;
+int n,c=0,i;
 gets(str);
 n=strlen(str);
 for(i=0;str[i]!='\0';i++)
