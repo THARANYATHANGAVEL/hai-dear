@@ -12,9 +12,7 @@ void main()
     {
         a[(l-1)/2]=b;
     }
-    for(i=0;i<=l;i++)
-    {
-      printf("%c",a[i]);  
-    }
+      printf("%s",a);  
+   
     
 }
