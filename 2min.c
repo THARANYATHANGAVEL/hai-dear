@@ -1,14 +1,15 @@
 #include<stdio.h>
 void main()
 {
-    int i,j,n,a[15],temp;
+    int i,j,n,a[15],temp,k;
     printf("Enter the array size\t");
     scanf("%d",&n);
-    for(i=0;i<n;i++)
+    scanf("%d",&k);
+    for(i=1;i<=n;i++)
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n-1;i++)
+    for(i=1;i<n-1;i++)
     {
         for(j=i+1;j<n;j++)
         {
@@ -20,7 +21,7 @@ void main()
             }
         }
     }
-    printf("%d",a[1]);
+    printf("%d",a[k]);
 
 
 }
