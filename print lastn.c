@@ -9,7 +9,7 @@ int main()
   printf("Enter the number:");
   scanf("%d",&n);
   l=strlen(a);
-  for(i=l-1;i>0;i--)
+  for(i=l-n;i>n;i++)
   {
       k++;
       if(k<=n)
