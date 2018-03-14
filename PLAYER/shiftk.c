@@ -5,7 +5,7 @@ void main()
     scanf("%d%d",&n,&k);
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    while(r<k)
+    for(r=0;r<k;r++)
     {
         temp=a[n-1];
         for(i=n-1;i>0;i--)
@@ -13,10 +13,9 @@ void main()
             a[i]=a[i-1];
         }
         a[0]=temp;
-        r++;
-        
+    
     }
     for(i=0;i<n;i++)
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
     
 }
